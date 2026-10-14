@@ -25,7 +25,7 @@ The source of truth remains `css/base.css`.
 
 ## Component decisions
 
-- Footer artwork uses the supplied transparent `assets/img/footer-plant.png` as one decorative composition, bottom-right aligned, without masks or duplicate foreground art.
+- Footer artwork uses the supplied transparent `assets/img/footer-plant.png` as one decorative composition, anchored to the viewport's bottom-right edge even when the content container is centered, without masks or duplicate foreground art.
 - Every transient corner toast displays a bottom-edge countdown bar. Hover or keyboard focus pauses both the countdown and dismissal; leaving resumes from the remaining time.
 - Apple and Google quick sign-in buttons use recognizable inline vector marks, remain semantic buttons, and preserve visible keyboard focus.
 - Existing routes, field names, copy, DOM order, layout, and public-page metadata stay unchanged.
